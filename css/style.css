@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
 body{
     margin: 0px;
 }
 .banniere{
     text-align:center; 
-    background:#000;
+    background:#2a4789;
     height: 500px ;
 }
 .banniere h1{
@@ -12,13 +14,13 @@ body{
     text-transform: uppercase;
     font-size: 10em;
     color: rgba(255,255,255,.1);
-    background-image: url(../images/vague.png);
+    background-image: url(../images/vague1.png);
     background-repeat:repeat-x;
     -webkit-background-clip: text;
     animation: animate 15s linear infinite
 }
 .banniere h4{
-    color: #fff;
+    color: #efdf31;
 }
 @keyframes animate
 {
@@ -50,10 +52,11 @@ footer .container {
 
 
  p {
-        
+            font-family: 'Montserrat', sans-serif;
             margin: 10px;
             padding: 10px;
             position: center;
+            
 
  }      
 
@@ -70,4 +73,9 @@ footer .container {
  }
  .yes{
     font-weight: bold;
+ }
+ h4{
+   font-family: 'Bitter', serif;
+   font-size: 0px;
+
  }
