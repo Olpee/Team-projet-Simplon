@@ -41,41 +41,33 @@ body{
 }
 
 
-/*footer .container {
-                                height: auto;
-                             }
-                    
-                
-                   footer    {
-
-                                display:  table-row;
-                                height:  1px;
+footer .container {
+                                height: 40px;
                                 background-color: #7F7D72;
+                                padding-top: 20px;
                              } 
 
 
 
-                     p {
-                            
-                                margin: 10px;
-                                padding: 10px;
-                                position: center;
+ p {
+        
+            margin: 10px;
+            padding: 10px;
+            position: center;
 
-                     }      
+ }      
 
-                     .yo{
-                        padding-right: 200px;
-                        text-align: right;
-                        padding-bottom: 30px;
+ .yo{
+    padding-right: 200px;
+    float: right;
 
-                     }
+ }
 
-                     .bo{
-                        padding-left: 200px;
-                        text-align: left;
-                        padding-top: 50px;
+ .bo{
+    padding-left: 200px;
+    text-align: left;
 
-                     }
-                     .yes{
-                        font-weight: bold;
-                     }*/
+ }
+ .yes{
+    font-weight: bold;
+ }
