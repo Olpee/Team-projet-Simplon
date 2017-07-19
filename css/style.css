@@ -70,9 +70,7 @@ body{
 
     margin: 0px;
 }
-#gg{
-    margin-left: 50px;
-}
+
 .banniere{
     text-align:center; 
     background:#2a4789;
@@ -92,9 +90,7 @@ body{
 .banniere h4{
     color: #efdf31;
 }
-#gg{
-    margin-left: 50px;
-}
+
 @keyframes animate
 {
     0%
