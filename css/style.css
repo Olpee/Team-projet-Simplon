@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter');
 
 
-.bouton
+.bouton1
 {
     position: absolute;
     top: 50%;
@@ -20,8 +20,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 4px;
 }
-.bouton:before,
-.bouton:after,
+.bouton1:before,
+.bouton1:after,
 span:before,
 span:after
 {
@@ -34,12 +34,12 @@ span:after
     mix-blend-mode: hue;
 
 }
-.bouton:before
+.bouton1:before
 {
     top: -2px;
     left: -2px;
 }
-.bouton:after
+.bouton1:after
 {
     top: -2px;
     right: -2px;
@@ -54,14 +54,16 @@ span:after
     bottom: -2px;
     right: -2px;
 }
-.bouton:hover:before,
-.bouton:hover:after,
-.bouton:hover span:before,
-.bouton:hover span:after
+.bouton1:hover:before,
+.bouton1:hover:after,
+.bouton1:hover span:before,
+.bouton1:hover span:after
 {
      width: calc( 180px /2);
     height: calc( 50px /2);
 }
+
+/* vode bouton animée nicolas*/
 
 
 
@@ -195,6 +197,7 @@ h4{
     .banniere{    
 
     }
+
 @media screen and (max-width: 640px)
 {
     h1  {   } 
@@ -203,4 +206,5 @@ h4{
 {
     *
 }
+
 
