@@ -116,7 +116,7 @@ body{
 
 footer .container {
     height: 50px;
-    width: 1360px;
+    width: 1445px;
     background-color: #2a4789;
     padding-top: 20px;
     margin-left: -10px;
@@ -210,4 +210,10 @@ h2{
     *
 }
 
+#partenaires .container img{
+    display: flex;
+    justify-content: space-between;
+    height: 100px; width: 100px;
+    
+}
 
