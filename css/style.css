@@ -213,6 +213,11 @@ h2{
     padding-top: 130px;
 }
 
+
+
+
+
+
 }
 
 .gallery-title
@@ -259,11 +264,15 @@ h2{
 
 .port-image
 {
-    width: 100%;
+    
 }
 
 .gallery_product
-{
-   
-    padding: 0px;
+{   
+   margin-bottom: 5px;
+}
+.row {
+    justify-content: center;
+    width: 80px;
+    height: 90px;
 }
