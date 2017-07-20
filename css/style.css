@@ -142,6 +142,13 @@ p  {
     float: right;
 
 }
+.contact{
+    background: url(../images/Contact.png)no-repeat;
+    background-position: right;
+    background-size: 450px;
+}
+
+
 
 .bo{
     padding-left: 200px;
