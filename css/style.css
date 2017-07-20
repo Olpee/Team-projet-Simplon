@@ -20,48 +20,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 4px;
 }
-.bouton1:before,
-.bouton1:after,
-span:before,
-span:after
-{
-    content: '' ;
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: #ff0;
-    transition: 1s;
-    mix-blend-mode: hue;
 
-}
-.bouton1:before
-{
-    top: -2px;
-    left: -2px;
-}
-.bouton1:after
-{
-    top: -2px;
-    right: -2px;
-}
-span:before
-{
-    bottom: -2px;
-    left: -2px;
-}
-span:after
-{
-    bottom: -2px;
-    right: -2px;
-}
-.bouton1:hover:before,
-.bouton1:hover:after,
-.bouton1:hover span:before,
-.bouton1:hover span:after
-{
-     width: calc( 180px /2);
-    height: calc( 50px /2);
-}
+
+
 
 /* code bouton animée nicolas*/
 
@@ -77,6 +38,7 @@ body{
     text-align:center; 
     background:#2a4789;
     height: 265px ;
+    margin-top: -20px;
 }
 .banniere h1{
     margin: 0;
@@ -114,15 +76,15 @@ body{
 }
 
 
-footer .container {
+/*footer .container {
     height: 50px;
-    width: 1445px;
+    max-width: 1445px;
     background-color: #2a4789;
-    padding-top: 20px;
+    
     margin-left: -10px;
     margin-right: 50px;
 
-} 
+} */
 
 
 
@@ -135,17 +97,22 @@ p  {
     padding: 50px;
     position: left;
 
-}      
+}  
+.yo1{
+    background-color: #2a4789;
+    padding-top: 20px;
+    height: 50px;
+}    
 
 .yo{
     padding-right: 50px;
     float: right;
-
 }
 
 .bo{
     padding-left: 200px;
     text-align: left;
+    color: #fff;
 
 }
 
@@ -159,21 +126,30 @@ h4{
 }
 
 .oon{
-    background: url('../images/img5.jpg') no-repeat ;
-
-   
-
+    background: url('../images/img5.jpg')center center no-repeat ;
     -webkit-background-size: cover;
     background-size: cover;
+    height: 30em;
 }
 
 
 .mov{
     font-size: 15px;
     font-style: italic;
-    margin-bottom: 0px;
+    padding-top: 250px;
 }
-
+.video{
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #2a4789;
+}
+.navbar-default{
+    background: #2a4789;
+}
 .img{
 
     width: 200px;
@@ -183,7 +159,7 @@ h2{
     text-align: center;
 }
 
-@media screen and (max-width: 640px)
+@media screen and (max-width: 840px)
 {
    img {
         background-image: url('https://scontent.frun2-1.fna.fbcdn.net/v/t1.0-9/15822745_716177068545057_5447092148424664840_n.jpg?oh=1eb5598c6b0522d3189fa3cb867fa45b&amp;oe=5A0E20C3');
@@ -201,19 +177,93 @@ h2{
 
     }
 
-@media screen and (max-width: 640px)
-{
-    h1  {   } 
-}
-@media screen and (max-width: 640px)
-{
-    *
-}
 
+@media screen and (max-width: 840px){
+
+#partenaires{display: flex;
+    justify-content: space-around;}
 #partenaires .container img{
-    display: flex;
-    justify-content: space-between;
+    
     height: 100px; width: 100px;
     
 }
+.bo{
+    padding-left: 50px;
+    text-align: left;
+    color: #fff;
 
+}
+.video{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.banniere h1{
+    font-size: 40px;
+    padding-top: 60px;
+}
+.bouton1{
+    visibility: hidden;
+}
+.mov{
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 130px;
+}
+
+}
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+   
+    padding: 0px;
+}
