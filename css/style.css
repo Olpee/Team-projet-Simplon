@@ -60,6 +60,9 @@
     padding-top: 60px;
 }
 
+
+/* GALLERY
+========================== */
 .gallery {
     padding: 80px 0;
 }
@@ -71,4 +74,16 @@
 .gallery img {
     width: 100%;
 
+}
+
+/* PARTENAIRES
+========================== */
+.partenaires li{
+    display: inline;
+    list-style: none;
+    padding: 0 13px;
+}
+
+.partenaires img {
+    width: 10%;
 }
