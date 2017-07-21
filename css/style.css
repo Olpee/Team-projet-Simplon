@@ -132,11 +132,11 @@ h4{
     font-size: 30px;
 }
 
-.oon{
+.jumbotron{
     background: url('../images/img5.jpg')center center no-repeat ;
     -webkit-background-size: cover;
     background-size: cover;
-    height: 30em;
+    
 }
 
 
