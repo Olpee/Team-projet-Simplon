@@ -1,178 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Projet 1</title>
+  <title>Projet S.V.P</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
+  <!-- BOOTSTRAP -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <!-- Latest compiled and minified JavaScript -->
-
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- CSS -->
   <link href="css/style.css" rel="stylesheet">
-  <!-- Latest compiled and minified CSS -->
 </head>
-
-
-
-
-
 <body>
-  <nav class="nav navbar navbar-inverse ">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="http://simplon.co/ecosysteme/essaimage-simplon-co/" target="_blank">Simplon Reunion </a>
+
+  <!-- HEADER -->
+  <header class="header">
+
+    <!--  NAVIGATION -->
+    <nav class="nav navbar navbar-inverse ">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://simplon.co/ecosysteme/essaimage-simplon-co/" target="_blank">Simplon Reunion </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Qu'est ce que Simplon ?</a></li>
+                <li><a href="#">Nos projets</a></li>
+                <li><a href="#">Les apprenants</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Nous contacter</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">L'histoire de Simplon dans le monde</a></li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
       </div>
+    </nav>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Qu'est ce que Simplon ?</a></li>
-              <li><a href="#">Nos projets</a></li>
-              <li><a href="#">Les apprenants</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Nous contacter</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">L'histoire de Simplon dans le monde</a></li>
-            </ul>
-          </li>
-        </ul>
-
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-
-
-  <div class="bouton1">
-    <span>A propos</span>
-  </div>
-
-  <div class="banniere">
+    <!-- BANNER -->
+    <div class="banniere">
+      <h1>Simplon.co</h1>
+      <h4>Fabrique Numerique</h4>
+    </div>
+  </header>
 
 
 
 
-
-    <h1>Simplon.co</h1>
-    <h4>Fabrique Numerique</h4>
-
-
-  </div>
-
-
+  <!-- JUMBOTRON -->
   <div class="oon"> 
-
-
-
     <p class="mov">Simplon est un réseau de "fabrique"(écoles) qui propose des formations gratuites pour devenir développeur de sites web et d'applications mobiles et biens d'autres métier du numériques qui permettent de trouver rapidement un emploi ou de créer sa propre activité.
       Des formations qualifiantes ou  certifiantes, s'adresse prioritairement aux personnes éloignés de l'emploi.
       La motivation est trés rechercher par Simplon.
     </p>
   </div>
 
+  <!-- VIDEO -->
   <div class="video"> 
-
     <iframe width="500" height="315" src="https://www.youtube.com/embed/K8msdQOEFE0" frameborder="0" allowfullscreen></iframe>
   </div>
 
 
-
-  <div class="container">
-    <div class="row">
-      <h2>les apprenants</h2>
-      <hr>        
-    </div>
-    <div class="row">
-      <span class="col-lg-3 col-sm-12 picture">
-        <img class="img-thumbnail" src="images/photapre/alex.jpg" width="200" height="200">   
-      </span>
-      
-      <span class="col-lg-3 col-sm-12">
-        <img class="img-thumbnail" src="images/photapre/benjamin.jpg" width="200" height="200">   
-      </span>
-      
-      <span class="col-lg-3 col-sm-12">
-        <img class="img-thumbnail" src="images/photapre/bruno.jpg" width="200" height="200">   
-      </span>
-      
-      <span class="col-lg-3 col-sm-12">
-        <img class="img-thumbnail" src="images/photapre/Denilson.jpeg" width="200" height="200">   
-      </span>
-      
-      <span class="col-lg-3 col-sm-12">
-        <img class="img-thumbnail" src="images/photapre/houssem.jpg" width="200" height="200">   
-      </span>
-      
-      <span class="col-lg-3 col-sm-12">
-        <img class="img-thumbnail" src="images/photapre/moi.jpg" width="200" height="200">   
-      </span>
-      
-      <span class="col-lg-3 col-sm-12">
-        <img class="img-thumbnail" src="images/photapre/nicolas.jpg" width="200" height="200">   
-      </span>
-      
-      <span class="col-lg-3 col-sm-12">
-        <img class="img-thumbnail" src="images/photapre/Remy.jpg" width="200" height="200">   
-      </span>
-
-      <span class="col-lg-3 col-sm-12">
-        <img class="img-thumbnail" src="images/photapre/robin.jpg" width="200" height="200">   
-      </span>
-
-
-      <p class="mov">Simplon est un réseau de "fabrique"(écoles) qui propose des formations gratuites pour devenir développeur de sites web et d'applications mobiles et biens d'autres métier du numériques qui permettent de trouver rapidement un emploi ou de créer sa propre activité.
-        Des formations qualifiantes ou  certifiantes, s'adresse prioritairement aux personnes éloignés de l'emploi.
-        La motivation est trés rechercher par Simplon.
-        
-      </p>
-    </div>
-    
+  <!-- GALLERIE -->
 
 
 
 
-    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-      <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-    </div>
-
-
-
+  <!-- PARTENAIRES -->
+  <h2>Nos partenaires</h2>
+  <div id ="partenaires">	
+   <div class="container">
+    <img src= "images/grande.jpg"> 
+    <img src="images/france.jpg"> 
+    <img src="images/ue.jpg" > 
+    <img src="images/opcalia.jpg"> 
+    <img src="images/rr.jpg"> 
+    <img src="images/saintdenis974.png">
+    <img src="images/ej.png">
+    <img src="images/logo.jpg" width="300px">
   </div>
 </div>
 
-
-
-
-
-<h2>Nos partenaires</h2>
-
-
-<div id ="partenaires">	
- <div class="container">
-  <img src= "images/grande.jpg"> 
-  <img src="images/france.jpg"> 
-  <img src="images/ue.jpg" > 
-  <img src="images/opcalia.jpg"> 
-  <img src="images/rr.jpg"> 
-  <img src="images/saintdenis974.png">
-  <img src="images/ej.png">
-  <img src="images/logo.jpg" width="300px">
-</div>
-</div>
-
+<!--  CONTACT -->
 <div class="container contact">
   <h1 class="text-center">Nous contactez !</h1>
   <div class="col-md-5">
@@ -194,9 +118,9 @@
         </div>
         <div class="form-group">
           <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
-          
+
         </div>
-        
+
         <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Envoyer</button>
       </form>
     </div>
@@ -204,47 +128,27 @@
 </div>
 
 
-<footer>
 
+<!--  FOOTER -->
+<footer class="footer">
  <div class="yo1">
-
-
   <span class="bo"><span class="yes">INVICTUS MANEO </span></span> 
-
-
-
   <span class="bo"><span class="yes">INVICTUS MANEO </span></span> 
   <span class="bo"><span class="yes">Privacy</span></span> 
 
-
-
-
   <div class="yo">
-
-
     <div class="yo">
-
       <a href="https://www.facebook.com/simplonreunion/ " target="_blank"><img src="images/png/001-facebook.png" width="30px" height="30px"></a>
       <a href="https://twitter.com/Simplon_Reunion" target="_"><img src="images/png/003-twitter.png" width="30px" height="30px"></a>
-
       <a href="https://www.facebook.com/simplonreunion/ " target="_blank"><img src="images/png/001-facebook.png" width="30px" height="30px"></a>
       <a href="https://twitter.com/Simplon_Reunion" target="_"><img src="images/png/003-twitter.png" width="30px" height="30px"></a>
-      
-
-      
-
-
-
     </div>  
-
   </div>
-
-
-
-
 </footer> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!--  JAVASCRIPT -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
 
