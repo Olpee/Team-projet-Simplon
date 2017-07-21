@@ -15,7 +15,7 @@
 <body>
 
   <!-- HEADER -->
-  <header class="header">
+  <header>
 
     <!--  NAVIGATION -->
     <nav class="nav navbar navbar-inverse ">
@@ -60,22 +60,16 @@
   </header>
 
 
-
-
   <!-- JUMBOTRON -->
-  <div class="jumbotron"> 
-    <p class="mov">Simplon est un réseau de "fabrique"(écoles) qui propose des formations gratuites pour devenir développeur de sites web et d'applications mobiles et biens d'autres métier du numériques qui permettent de trouver rapidement un emploi ou de créer sa propre activité.
-      Des formations qualifiantes ou  certifiantes, s'adresse prioritairement aux personnes éloignés de l'emploi.
-      La motivation est trés rechercher par Simplon.
-    </p>
-  </div>
-
+  
   <!-- VIDEO -->
-  <div class="video"> 
+<div class="container-fluid">
+<div class="row">
+  <div class="video col-md-12"> 
     <iframe width="500" height="315" src="https://www.youtube.com/embed/K8msdQOEFE0" frameborder="0" allowfullscreen></iframe>
   </div>
-
-
+</div>
+</div>
   <!-- GALLERIE -->
   <div class="gallery">
     <div class="container">
@@ -118,6 +112,7 @@
   </div>
 
 
+
   <!-- PARTENAIRES --> 
   <div class="partenaires">
     <div class="container">
@@ -133,6 +128,25 @@
       </ul>
     </div>
   </div>
+
+
+
+
+  <!-- PARTENAIRES -->
+  <h2>Nos partenaires</h2>
+  <div id ="partenaires">	
+   <div class="container">
+    <img src= "images/grande.jpg"> 
+    <img src="images/france.jpg"> 
+    <img src="images/ue.jpg" > 
+    <img src="images/opcalia.jpg"> 
+    <img src="images/rr.jpg"> 
+    <img src="images/saintdenis974.png">
+    <img src="images/ej.png">
+    <img src="images/logo.jpg" width="300px">
+  </div>
+</div>
+
 
 <!--  CONTACT -->
 <div class="container contact">
@@ -157,19 +171,15 @@
 
         </div>
 
-        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Envoyer</button>
+       <a class="btn btn-danger" href="mailto:timoz974@hotmail.fr">Envoyer</a>
       </form>
     </div>
   </div>
 </div>
 
 
-<!--  FOOTER 
+<!--  FOOTER  -->
 <footer class="footer">
- <div class="yo1">
-  <span class="bo"><span class="yes">INVICTUS MANEO </span></span> 
-  <span class="bo"><span class="yes">INVICTUS MANEO </span></span> 
-  <span class="bo"><span class="yes">Privacy</span></span> 
 
   <div class="yo">
     <div class="yo">
@@ -179,48 +189,11 @@
       <a href="https://twitter.com/Simplon_Reunion" target="_"><img src="images/png/003-twitter.png" width="30px" height="30px"></a>
     </div>  
   </div>
-</footer> -->
+</footer>
 
 <!--  JAVASCRIPT -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<script type="text/javascript">
-
-  $(document).ready(function(){
-
-    $(".filter-button").click(function(){
-      var value = $(this).attr('data-filter');
-
-      if(value == "all")
-      {
-            //$('.filter').removeClass('hidden');
-            $('.filter').show('1000');
-          }
-          else
-          {
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-$(".filter").not('.'+value).hide('3000');
-$('.filter').filter('.'+value).show('3000');
-
-}
-});
-    
-    if ($(".filter-button").removeClass("active")) {
-      $(this).removeClass("active");
-    }
-    $(this).addClass("active");
-
-  });
-
-
-
-
-
-
-
-
-</script>
 </body>
 </html>  

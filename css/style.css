@@ -1,7 +1,7 @@
 .banniere{
     text-align:center; 
     background:#2a4789;
-    height: 265px ;
+    height: 250px ;
     margin-top: -20px;
 }
 .banniere h1{
@@ -36,14 +36,10 @@
 }
 
 
-
-
-.jumbotron{
-    background: url('../images/img5.jpg')center center no-repeat ;
-    -webkit-background-size: cover;
-    background-size: cover;
-    height: 30em;
+.navbar {
+    border-radius: 0px;
 }
+
 
 .video{
     margin: auto;
